@@ -1,0 +1,379 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    /*width: 100%;*/
+    width: 1260px;
+    height: 100%;
+}
+
+
+body {
+    background-color: #6c88a9;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    font-stretch: condensed;
+}
+
+#all-systems {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #84a1c7;
+    border: 3px outset #6f8daf;
+    font-size: 39px;
+}
+
+.pressure-different-values {
+    /*flex-basis: 20%;*/
+    border: 3px outset #6f8daf;
+    background-color: #5a7693;
+}
+
+#pressure-temperature {
+    display: flex;
+    flex-direction: row;
+    background-color: #758fb2;
+}
+
+#pressure {
+    flex-grow: 1;
+}
+
+#temperature {
+    flex-grow: 1;
+}
+
+#O2levels {
+    flex-grow: 1;
+}
+
+#cO2levels {
+    flex-grow: 1;
+}
+
+#O2trunk {
+    flex-grow: 1;
+}
+
+
+.small-letters-one {
+    font-size: 20px;
+    /*padding-top: 25px;*/
+    padding-left: 23px;
+}
+
+.big-numbers {
+    font-size: 76px;
+    font-weight: normal;
+    padding-left: 32px;
+}
+
+sup {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.img-level-of-pressure {
+    height: 27px;
+    width: 242px;
+}
+
+.small-letters-pressure {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 22px;
+    color: #a3edf2;
+    padding-bottom: 10px;
+}
+
+.gray {
+    color: #bed2dd;
+}
+
+#O2trunk {
+    position: relative;
+}
+
+#arrow {
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    width: 41px;
+    height: 40px;
+}
+
+#communication-computers {
+    border: 3px outset #6f8daf;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-lock {
+    padding-left: 20px;
+}
+
+.line-blue {
+    width: 176px;
+    height: 3px;
+    padding-left: 20px;
+}
+
+.minus {
+    padding-left: 92px;
+    font-size: 27px;
+}
+
+#communication-computers-one {
+    flex-basis: 40%;
+    border: 3px outset #6f8daf;
+}
+
+#communication-computers-two {
+    flex-basis: 20%;
+    border: 3px outset #6f8daf;
+
+}
+
+#communication-computers-three {
+    flex-basis: 40%;
+
+}
+
+#communication-computers-one-two-three {
+    display: flex;
+    flex-direction: row;
+}
+
+#communication-computers-one-one {
+    flex-basis: 40%;
+}
+
+#communication-computers-one-two {
+    flex-basis: 20%;
+
+}
+
+#communication-computers-one-three {
+    flex-basis: 40%;
+}
+
+.circle {
+    padding-left: 34px;
+    padding-bottom: 20px;
+}
+
+#circle-first {
+    padding-top: 118px;
+}
+
+#transmitters {
+    padding-top: 67px;
+}
+
+.green {
+    color: #a3edf2;
+}
+
+#ABC {
+    margin-top: 8px;
+}
+
+#lines-thrusters-fuel-batteries {
+    /*border: 3px outset #6f8daf;*/
+    display: flex;
+    flex-direction: row;
+}
+
+
+.all-systems-and-very-hard-block {
+    display: flex;
+    flex-direction: row;
+}
+
+/*all systems*/
+.lines-thrusters-fuel-batteries-one {
+flex-grow: 1;
+}
+
+.very-hard-block-one-in-three {
+flex-grow: 1;
+}
+
+
+
+
+.thrusters-fuel-batteries-and-five-blocks {
+display: flex;
+    flex-direction: column;
+}
+
+.lines-thrusters-fuel-batteries {
+
+  /*flex-grow: 4;*/
+    /*flex-basis: 80%;*/
+}
+
+.communications-all {
+  /*flex-grow: 1;*/
+    /*flex-basis: 20%;*/
+}
+
+
+.two-arrows-and-numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+#lines-thrusters-fuel-batteries-two {
+    flex-basis: 20%;
+}
+
+#lines-thrusters-fuel-batteries-three {
+    flex-basis: 30%;
+    border-right: 3px outset #6f8daf;
+    margin: 0;
+}
+
+#lines-thrusters-fuel-batteries-four {
+    flex-basis: 30%;
+}
+
+#fuel-ox {
+    display: flex;
+    flex-direction: row;
+}
+
+#fuel-ox-one {
+    flex-basis: 25%;
+    padding-left: 31px;
+    padding-top: 10px;
+}
+
+#fuel-ox-two {
+    flex-basis: 25%;
+    padding-top: 10px;
+    font-size: 60px;
+}
+
+#fuel-ox-three {
+    flex-basis: 25%;
+    padding-top: 10px;
+}
+
+#fuel-ox-four {
+    flex-basis: 25%;
+    padding-top: 10px;
+    font-size: 60px;
+}
+
+.blue-numbers {
+    color: #98c5de;
+}
+
+.power-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.power-one-cells {
+    flex-basis: 16%;
+    padding: 10px;
+}
+
+#communications {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    /*width: 990px;*/
+
+
+}
+
+.communications-cells1 {
+    flex-basis: 23%;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.communications-cells2 {
+    flex-basis: 23%;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.communications-cells3 {
+    flex-basis: 20%;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.communications-cells4 {
+    flex-basis: 19%;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+
+.communications-cells5 {
+    flex-basis: 15%;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+.border {
+    border: 3px outset #6f8daf;
+    padding-left: 10px;
+}
+
+#life-support {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 40px;
+    border: 3px outset #6f8daf;
+}
+
+#row-bottom {
+    display: flex;
+    flex-direction: row;
+    /*height: 50px;*/
+}
+
+.row-bottom-cells {
+    flex-grow: 1;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.two-block-scheme {
+    display: flex;
+    flex-direction: row;
+}
+
+.clear-div-block {
+    clear: top;
+}
+
+
+
+
+
+
+
+
